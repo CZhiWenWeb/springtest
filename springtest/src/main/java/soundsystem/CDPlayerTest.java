@@ -1,11 +1,8 @@
 package soundsystem;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import static org.junit.Assert.assertNotNull;
 
 /**
  * @Author: czw
@@ -20,8 +17,14 @@ import static org.junit.Assert.assertNotNull;
 public class CDPlayerTest {
 	@Autowired
 	CDPlayer cdPlayer;
-	@Test
-	public void shouldBeFind(){
-		assertNotNull(cdPlayer);
-	}
+	@Autowired
+	BlankDisc blankDisc;
+	//@Test
+	//public void shouldBeFind(){
+	//	assertNotNull(cdPlayer);
+	//}
+	//@Test
+	//public void shouldEquest(){
+	//	assertEquals(blankDisc.play());
+	//}
 }

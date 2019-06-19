@@ -26,7 +26,20 @@ public class Shell {
 			h=h/3;
 		}
 	}
-
+	public static void sort(Comparable[] a,int lo,int hi){
+		int N=hi-lo+1;
+		int h=1;
+		while (h<N/3)
+			h=3*h+1;
+		while (h>=1){
+			//将数组变为h有序数组
+			for (int i=h+lo;i<lo+N;i++){
+				for (int j=i;j>=(h+lo)&&less(a[j],a[j-h]);j-=h)
+					exch(a,j,j-h);
+			}
+			h=h/3;
+		}
+	}
 	public static void main(String[] args) {
 		Integer[] integers=new Integer[6];
 		for (int i=0;i<integers.length;i++) {

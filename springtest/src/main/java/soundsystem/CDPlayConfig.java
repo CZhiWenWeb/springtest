@@ -1,5 +1,6 @@
 package soundsystem;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -13,6 +14,6 @@ import org.springframework.context.annotation.Configuration;
 //使用
 //@ComponentScan(basePackages = {"soundsystem","video"})
 //指定类所在的包会作为组件扫描的基础包，可以使用空接口来标记包
-//@ComponentScan(basePackageClasses = {CDPlayConfig.class})
+@ComponentScan(basePackageClasses = {CDPlayConfig.class})
 public class CDPlayConfig {
 }

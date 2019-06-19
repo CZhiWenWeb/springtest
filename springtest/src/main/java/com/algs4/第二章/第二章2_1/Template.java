@@ -33,6 +33,12 @@ public class Template {
 			if (less(a[i], a[i - 1])) return false;
 		return true;
 	}
+	public static boolean isSorted(Comparable[] a,int lo,int hi){
+		for (int i=lo;i<hi;i++)
+			if (less(a[i+1],a[i]))
+				return false;
+			return true;
+	}
 	public static void merge(Comparable[] a,int lo,int mid,int hi){
 		//将a[lo..mid]和a[mid+1..hi]归并
 		int i=lo,j=mid+1;

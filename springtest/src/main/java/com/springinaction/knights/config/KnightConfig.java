@@ -20,7 +20,7 @@ public class KnightConfig {
 		return new BraveKnight(quest());
 	}
 	@Bean
-	private Quest quest() {
+	public Quest quest() {
 		return new SlayDragonQuest(System.out);
 	}
 }
