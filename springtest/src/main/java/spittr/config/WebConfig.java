@@ -44,4 +44,5 @@ extends WebMvcConfigurationSupport {
 	){
 		configurer.enable();
 	}
+
 }

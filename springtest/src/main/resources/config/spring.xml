@@ -17,6 +17,7 @@ http://www.springframework.org/schema/aop
                     method="watchPerformance"/>
         </aop:aspect>
     </aop:config>
+
     <!--通过xml启用组件扫描-->
     <context:component-scan base-package="soundsystem"/>
     <bean id="audience" class="concert.Audience"/>
