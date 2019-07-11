@@ -1,0 +1,14 @@
+#数据库配置
+spring:
+  datasource:
+    name: mytest
+    #serverTimezone设置时区
+    url:  jdbc:mysql://127.0.0.1:3306/mytest?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+#mybatis配置
+mybatis:
+  configLocation: classpath:mybatis-config.xml
+#  mapper-locations: com.example.mapper
+  type-aliases-package: com.example.bean
