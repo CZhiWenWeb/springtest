@@ -1,6 +1,8 @@
 package com.example.mapper;
 
 import com.example.bean.Student;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.jdbc.SQL;
 
 import java.util.List;
@@ -21,7 +23,41 @@ public class StudentsBuilder {
 			}
 		}}.toString();
 	}
+	/**
+	 * 批量修改
+	 */
+	public static String updateStudents(final List<Student> students){
+		return "";
+	}
+	/**
+	 * 批量查询
+	 * @param snos
+	 * @return
+	 */
+	public static String selectStudentsByPrimary(final List<String> snos,final String field,final String tableName,Integer primary){
+		return new SQL(){{
+			StringBuffer sb=new StringBuffer();
+			for (int i=0;i<snos.size();i++){
+				if (i==0)
+					sb.append("(").append(snos.get(i)).append(",");
+				else if (i==snos.size()-1)
+					sb.append(snos.get(i)).append(")");
+				else
+					sb.append(snos.get(i)).append(",");
+			}
+			SELECT(field);
+			FROM(tableName);
+			if (snos!=null){
+				WHERE(primary+"in"+sb);
+			}
+		}}.toString();
+	}
 
+	/**
+	 * 批量添加
+	 * @param students
+	 * @return
+	 */
 	public static String addStudents(final List<Student> students) {
 		return new SQL() {
 			{
@@ -36,8 +72,8 @@ public class StudentsBuilder {
 					}else {
 						INTO_VALUES(students.get(i).getSname());
 					}
-					INTO_VALUES(students.get(i).getSno());
-
+					INTO_VALUES(students.get(i).getSno().toString());
+					INTO_VALUES(students.get(i).getTime().toString());
 					if (i!=students.size()-1){
 						INTO_VALUES(students.get(i).getSsex()+")");
 					}else {

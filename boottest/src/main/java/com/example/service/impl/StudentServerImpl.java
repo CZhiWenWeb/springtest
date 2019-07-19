@@ -27,4 +27,14 @@ public class StudentServerImpl implements StudentServer {
 	public void addStudents(List<Student> students) {
 		studentMapper.addStudents(students);
 	}
+
+	@Override
+	public List<Student> selects(List<String> strings) {
+		return null;
+	}
+
+	//@Override
+	//public List<Student> selects(List<String> strings) {
+	//	return studentMapper.selectStudents(strings);
+	//}
 }
