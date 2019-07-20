@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,7 +27,7 @@ public class Example {
 	@Autowired
 	private ConfigBean configBean;
 	@Autowired
-	StudentServerImpl StudentServerImpl;
+	StudentServerImpl studentServerImpl;
 	@RequestMapping("/")
 	String home(){
 		List<Student> students=new ArrayList<>();
@@ -39,16 +40,23 @@ public class Example {
 			student.setTime(LocalDate.now());
 			students.add(student);
 		}
-		StudentServerImpl.addStudents(students);
+		studentServerImpl.addStudents(students);
 		return "";
 	}
-
+	@RequestMapping("/deleteStudents")
+	String delete(){
+		List<String> snos=new ArrayList<>();
+		snos.add("0");snos.add("1");
+		studentServerImpl.deleteStudents(snos);
+		return "";
+	}
 	@RequestMapping("/selectStudents")
-	String getStudents(){
-		List<String> list=new ArrayList<>();
-		list.add("001");list.add("002");
-		list.add("003");
-		List<Student> students=StudentServerImpl.selects(list);
-		return students.get(0).getSname()+students.get(1).getSname()+students.get(2).getSname();
+	String select(){
+		List<Student> students=studentServerImpl.listStudent();
+		String string="";
+		for (int i=0;i<students.size();i++){
+			System.out.println(students.get(i).getSname());
+		}
+		return "";
 	}
 }

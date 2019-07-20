@@ -14,41 +14,36 @@ import java.util.List;
  * @Description:
  */
 public class StudentsBuilder {
+	/**全表查询*/
+	public static String listStudents(){
+		return new SQL(){{
+			SELECT("*");
+			FROM("t_student");
+		}}.toString();
+	}
+	/**批量删除*/
+	public static String deleteStudent(final List<String> snos){
+		return new SQL(){{
+			DELETE_FROM("t_student");
+			if (!snos.isEmpty()){
+				String fields="(";
+				for (int i=0;i<snos.size();i++){
+					if (i==snos.size()-1){
+						fields+=snos.get(i)+")";
+					}else {
+						fields+=snos.get(i)+",";
+					}
+				}
+				WHERE("sno in"+fields);
+			}
+		}}.toString();
+	}
 	public static String buildStudentBySno(final String sno) {
 		return new SQL() {{
 			SELECT("*");
 			FROM("t_student");
 			if (sno != null) {
 				WHERE("sno=#{sno}||'%'");
-			}
-		}}.toString();
-	}
-	/**
-	 * 批量修改
-	 */
-	public static String updateStudents(final List<Student> students){
-		return "";
-	}
-	/**
-	 * 批量查询
-	 * @param snos
-	 * @return
-	 */
-	public static String selectStudentsByPrimary(final List<String> snos,final String field,final String tableName,Integer primary){
-		return new SQL(){{
-			StringBuffer sb=new StringBuffer();
-			for (int i=0;i<snos.size();i++){
-				if (i==0)
-					sb.append("(").append(snos.get(i)).append(",");
-				else if (i==snos.size()-1)
-					sb.append(snos.get(i)).append(")");
-				else
-					sb.append(snos.get(i)).append(",");
-			}
-			SELECT(field);
-			FROM(tableName);
-			if (snos!=null){
-				WHERE(primary+"in"+sb);
 			}
 		}}.toString();
 	}

@@ -19,11 +19,11 @@ public interface StudentMapper {
 	@SelectProvider(type = StudentsBuilder.class,method = "buildStudentBySno")
 	Student select(@Param("sno") String sno);
 
-	//@SelectProvider(type = StudentsBuilder.class,method = "selectStudents")
-	//List<Student> selectStudents(@Param("snos") List<String> sons);
 	@InsertProvider(type = StudentsBuilder.class,method = "addStudents")
 	void addStudents(@Param("students") List<Student> students);
 
-	@UpdateProvider(type = StudentsBuilder.class,method = "updateStudents")
-	void updateStudents(@Param("students") List<Student> students);
+	@DeleteProvider(type = StudentsBuilder.class,method = "deleteStudent")
+	void deleteStudents(@Param("snos")List<String> snos);
+	@SelectProvider(type = StudentsBuilder.class,method = "listStudents")
+	List<Student> listStudents();
 }

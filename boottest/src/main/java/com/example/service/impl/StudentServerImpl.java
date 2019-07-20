@@ -29,8 +29,13 @@ public class StudentServerImpl implements StudentServer {
 	}
 
 	@Override
-	public List<Student> selects(List<String> strings) {
-		return null;
+	public void deleteStudents(List<String> sons) {
+		studentMapper.deleteStudents(sons);
+	}
+
+	@Override
+	public List<Student> listStudent() {
+		return studentMapper.listStudents();
 	}
 
 	//@Override

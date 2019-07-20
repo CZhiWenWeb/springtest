@@ -45,12 +45,9 @@ public class RedisConfig extends CachingConfigurerSupport {
 	}
 	//缓存管理器
 	@Bean
-	public CacheManager cacheManager(RedisConnectionFactory redisConnectionFactory){
-		RedisCacheConfiguration redisCacheConfiguration=
-				RedisCacheConfiguration.defaultCacheConfig().entryTtl(Duration.ofHours(1));
-		return RedisCacheManager
-				.builder(RedisCacheWriter.nonLockingRedisCacheWriter(redisConnectionFactory))
-				.cacheDefaults(redisCacheConfiguration).build();
+	public CacheManager cacheManager(RedisConnectionFactory factory) {
+		RedisCacheManager cacheManager = RedisCacheManager.create(factory);
+		return cacheManager;
 	}
 	@Bean
 	public RedisTemplate<String,String> redisTemplate(RedisConnectionFactory factory){
