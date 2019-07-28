@@ -7,12 +7,12 @@
     <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
-
+<!--指定生成mapper继承的接口-->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers" value="com.shiro.mapper.MyMapper"/>
             <property name="caseSensitive" value="false"/>
         </plugin>
-
+<!--此文件使用'&'连接配置需要改为'&amp防止报错'-->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
                         connectionURL="jdbc:mysql://127.0.0.1:3306/mytest?serverTimezone=Asia/Shanghai"
                         userId="root"
@@ -29,8 +29,8 @@
                              targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
-        <table tableName="t_user">
-            <generatedKey column="id" sqlStatement="JDBC"/>
+        <table tableName="t_user" domainObjectName="User">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>

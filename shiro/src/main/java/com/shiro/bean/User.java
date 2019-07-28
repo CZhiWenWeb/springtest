@@ -4,27 +4,27 @@ import java.util.Date;
 import javax.persistence.*;
 
 @Table(name = "t_user")
-public class TUser {
+public class User {
     /**
-     * 用户id
+     * user主键
      */
-    @GeneratedValue(generator = "JDBC")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     /**
-     * 用户名
+     * user名字
      */
     @Column(name = "user_name")
     private String userName;
 
     /**
-     * 密码
+     * user密码
      */
     @Column(name = "pass_word")
     private String passWord;
 
     /**
-     * 创建时间
+     * user新建时间
      */
     @Column(name = "create_time")
     private Date createTime;
@@ -32,75 +32,75 @@ public class TUser {
     /**
      * 是否有效 1：有效 0：锁定
      */
-    private String status;
+    private String staus;
 
     /**
-     * 获取用户id
+     * 获取user主键
      *
-     * @return id - 用户id
+     * @return id - user主键
      */
     public Integer getId() {
         return id;
     }
 
     /**
-     * 设置用户id
+     * 设置user主键
      *
-     * @param id 用户id
+     * @param id user主键
      */
     public void setId(Integer id) {
         this.id = id;
     }
 
     /**
-     * 获取用户名
+     * 获取user名字
      *
-     * @return user_name - 用户名
+     * @return user_name - user名字
      */
     public String getUserName() {
         return userName;
     }
 
     /**
-     * 设置用户名
+     * 设置user名字
      *
-     * @param userName 用户名
+     * @param userName user名字
      */
     public void setUserName(String userName) {
         this.userName = userName;
     }
 
     /**
-     * 获取密码
+     * 获取user密码
      *
-     * @return pass_word - 密码
+     * @return pass_word - user密码
      */
     public String getPassWord() {
         return passWord;
     }
 
     /**
-     * 设置密码
+     * 设置user密码
      *
-     * @param passWord 密码
+     * @param passWord user密码
      */
     public void setPassWord(String passWord) {
         this.passWord = passWord;
     }
 
     /**
-     * 获取创建时间
+     * 获取user新建时间
      *
-     * @return create_time - 创建时间
+     * @return create_time - user新建时间
      */
     public Date getCreateTime() {
         return createTime;
     }
 
     /**
-     * 设置创建时间
+     * 设置user新建时间
      *
-     * @param createTime 创建时间
+     * @param createTime user新建时间
      */
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
@@ -109,18 +109,18 @@ public class TUser {
     /**
      * 获取是否有效 1：有效 0：锁定
      *
-     * @return status - 是否有效 1：有效 0：锁定
+     * @return staus - 是否有效 1：有效 0：锁定
      */
-    public String getStatus() {
-        return status;
+    public String getStaus() {
+        return staus;
     }
 
     /**
      * 设置是否有效 1：有效 0：锁定
      *
-     * @param status 是否有效 1：有效 0：锁定
+     * @param staus 是否有效 1：有效 0：锁定
      */
-    public void setStatus(String status) {
-        this.status = status;
+    public void setStaus(String staus) {
+        this.staus = staus;
     }
 }
