@@ -1,0 +1,3 @@
+##condition key
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#  com.hello.dynamicdatasource.config.AutoConfig

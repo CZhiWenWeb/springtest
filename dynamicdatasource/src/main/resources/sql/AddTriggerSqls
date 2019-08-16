@@ -1,0 +1,22 @@
+use product_master
+DELIMITER //
+CREATE TRIGGER tr_Insert_t1
+  AFTER INSERT ON t_product
+FOR EACH ROW
+BEGIN
+  -- 检查前 环境避免递归.
+  IF @disable_trigger IS NULL THEN
+    -- 设置禁用触发器标志.
+    SET @disable_trigger = 1;
+    -- 插入目标表
+    INSERT INTO
+      product_slave_beta.t_product
+    VALUES
+      (new.product_id, new.product_name,new.product_price);
+    -- 恢复禁用触发器标志.
+    SET @disable_trigger = NULL;
+  END IF;
+END;
+//
+DELIMITER ;
+
