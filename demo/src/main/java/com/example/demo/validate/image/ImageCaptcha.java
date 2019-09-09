@@ -1,6 +1,5 @@
-package com.xyx.security.core.validate.code.image;
+package com.example.demo.validate.image;
 
-import com.xyx.security.core.validate.code.sms.Captcha;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
