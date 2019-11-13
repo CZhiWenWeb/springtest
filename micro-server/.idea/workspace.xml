@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01e8b17e-b6b7-41ee-9f76-73a6cc193637" name="Default Changelist" comment="ms-cloud" />
+    <ignored path="$PROJECT_DIR$/ms-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/ms-register/target/" />
+    <ignored path="$PROJECT_DIR$/ms-server/ms-server-test/target/" />
+    <ignored path="$PROJECT_DIR$/ms-common/target/" />
+    <ignored path="$PROJECT_DIR$/ms-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ms-auth/target/" />
+    <ignored path="$PROJECT_DIR$/ms-server/ms-server-system/target/" />
+    <ignored path="$PROJECT_DIR$/ms-server/target/" />
+    <ignored path="$PROJECT_DIR$/ms-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/ms-monitor/ms-monitor-admin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/mapper/MenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/IMenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_6_3.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_cloud_gateway_adapter_1_6_3.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-auth/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/MsAuthApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/mapper/UserRoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>用户名</find>
+      <find>PasswordEncoder</find>
+      <find>crea</find>
+      <find>userma</find>
+      <find>dapt</find>
+      <find>PaginationInterceptor</find>
+      <find>febs</find>
+      <find>admin</find>
+      <find>eure</find>
+      <find>eureak</find>
+      <find>spring</find>
+      <find>eu</find>
+      <find>gateway</find>
+      <find>forbidRequestUri</find>
+      <find>sentinel-spring-cloud</find>
+      <find>FebsGatewayExceptionHandler</find>
+      <find>ali</find>
+      <find>dru</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ms</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/ms-server-system.properties" />
+        <option value="$PROJECT_DIR$/ms-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-monitor/ms-monitor-admin/src/main/java/com/czw/ms/monitor/admin/MsMonitorAdminApplication.java" />
+        <option value="$PROJECT_DIR$/ms-monitor/ms-monitor-admin/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/ms-monitor/ms-monitor-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-monitor/ms-monitor-admin/src/main/java/com/czw/ms/monitor/admin/configure/MsSecurityConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-register/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-register/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-register/src/main/java/com/czw/ms/register/confiure/MsRegisterWebSecurityConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/configure/MsServerSystemResourceServerConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/configure/MsResourceServerConfigurer.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/properties/MsGatewayProperties.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/resources/ms.gateway.properties" />
+        <option value="$PROJECT_DIR$/ms-monitor/ms-monitor-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-test/src/main/java/com/czw/ms/server/test/configure/MsServerTestWebSecurityConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-test/src/main/java/com/czw/ms/server/test/configure/MsServerTestResourceServerConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/MsServerSystemApplication.java" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-test/src/main/java/com/czw/ms/server/test/MsServerTestApplication.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/MsGatewaySecurityConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/MsAuthApplication.java" />
+        <option value="$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/configure/MsSecurityConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/MsGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/filter/MsGatewayRequestFilter.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/fallback/MsGatewayBlockFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/MsGateWayCorsConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/handler/FebsGatewayExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/handler/MsGatewayExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/MsGateWayErrorConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/FebsGatewaySentinelConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/MsGatewaySentinelConfigure.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/MsConstant.java" />
+        <option value="$PROJECT_DIR$/ms-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-auth/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ms-auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/ValidationMessages.properties" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-test/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ms-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/RouterMeta.java" />
+        <option value="$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/VueRouter.java" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/IMenuService.java" />
+        <option value="$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/mapper/MenuService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/software/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="816" />
+    <option name="y" value="17" />
+    <option name="width" value="1056" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="czw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="czw" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-server" type="462c0819:PsiDirectoryNode" />
+              <item name="ms-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="czw" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.czw.ms.gateway.configure" />
+      <recent name="com.czw.ms.gateway.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myrepository\micro-server\ms-server\ms-server-test\src\main\resources" />
+      <recent name="F:\myrepository\micro-server\ms-server\ms-server-system\src\main\resources" />
+      <recent name="F:\myrepository\micro-server\ms-gateway\src\main\resources" />
+      <recent name="F:\myrepository\micro-server\ms-common\src\main\java\com\czw\ms\common\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsServerTestApplication">
+    <configuration name="MsAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czw.ms.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czw.ms.auth.MsAuthApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="nacos.url" value="127.0.0.1" />
+        <env name="redis.url" value="127.0.0.1" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czw.ms.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czw.ms.gateway.MsGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="nacos.url" value="127.0.0.1" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsMonitorAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-monitor-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czw.ms.monitor.admin.MsMonitorAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsServerSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-server-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czw.ms.server.system.MsServerSystemApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="nacos.url" value="127.0.0.1" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsServerTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-server-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czw.ms.server.test.MsServerTestApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="nacos.url" value="127.0.0.1" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MsMonitorAdminApplication" />
+      <item itemvalue="Spring Boot.MsServerSystemApplication" />
+      <item itemvalue="Spring Boot.MsServerTestApplication" />
+      <item itemvalue="Spring Boot.MsAuthApplication" />
+      <item itemvalue="Spring Boot.MsGatewayApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01e8b17e-b6b7-41ee-9f76-73a6cc193637" name="Default Changelist" comment="" />
+      <created>1570866502855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570866502855</updated>
+      <workItem from="1570866504111" duration="4793000" />
+      <workItem from="1571013760533" duration="54155000" />
+      <workItem from="1573440887541" duration="39710000" />
+      <workItem from="1573610818371" duration="1254000" />
+    </task>
+    <task id="LOCAL-00001" summary="ms-cloud">
+      <created>1573611117950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573611117951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99912000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="816" y="17" width="1056" height="995" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34903845" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3089947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33756614" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.33369923" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50096154" side_tool="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32804233" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49903846" weight="0.32918552" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49945116" visible="true" weight="0.17403845" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50054884" side_tool="true" visible="true" weight="0.11669659" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="ms-cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="ms-cloud" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/micro_server$MsMonitorAdminApplication.ic" NAME="MsMonitorAdminApplication Coverage Results" MODIFIED="1571211459047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>setUserRoles(user,roles)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>authUser</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>systemUser.getUsername()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>systemUser.getDeptName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>systemUser.getRoleName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>systemUser.getPassword()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/MsGateWayErrorConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/configure/MsGatewaySentinelConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/java/com/czw/ms/gateway/MsGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/translator/MsWebResponseExceptionTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/properties/MsClientsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/properties/MsValidateCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/MsConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/filter/ValidateCodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/service/ValidateCodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/service/MsUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/ValidationMessages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/ms-server-system.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-test/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-test/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/spy.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-test/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-test/src/main/java/com/czw/ms/server/test/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/MsAuthUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/system/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/system/SystemUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/system/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/RouterMeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/src/main/java/com/czw/ms/common/entity/VueRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/impl/UserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/mapper/system/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/resources/mapper/system/UserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/IUserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/ms-auth.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/mapper/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/IMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_6_3.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_cloud_gateway_adapter_1_6_3.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/server/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/ms-server-system/src/main/java/com/czw/ms/server/system/mapper/UserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-auth/src/main/java/com/czw/ms/auth/MsAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ms-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
