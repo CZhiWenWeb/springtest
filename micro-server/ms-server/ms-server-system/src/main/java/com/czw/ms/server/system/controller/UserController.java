@@ -5,6 +5,7 @@ import com.czw.ms.common.entity.MsResponse;
 import com.czw.ms.common.entity.QueryRequest;
 import com.czw.ms.common.entity.system.SystemUser;
 import com.czw.ms.common.utils.FebsUtil;
+import com.czw.ms.server.system.server.IMenuService;
 import com.czw.ms.server.system.server.IUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +30,6 @@ import java.util.Map;
 	public class UserController {
 	@Autowired
 	private IUserService userService;
-
 	@GetMapping
 	@PreAuthorize("hasAnyAuthority('user:view')")
 	public MsResponse userList(QueryRequest queryRequest, SystemUser user){
