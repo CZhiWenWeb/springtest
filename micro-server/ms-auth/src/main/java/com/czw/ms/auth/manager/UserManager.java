@@ -30,9 +30,6 @@ public class UserManager {
 
 	public String findUserPermissions(String username){
 		List<Menu> userPermisstions=menuMapper.findUserPermissions(username);
-		List<String> perms=new ArrayList<>();
-
 		return userPermisstions.stream().map(Menu::getPerms).collect(Collectors.joining(","));
-
 	}
 }

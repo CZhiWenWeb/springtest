@@ -36,7 +36,6 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-		log.info("ValidateCodeFilter start");
 		String header=request.getHeader("Authorization");
 		String clientId=getClientId(header,request);
 		RequestMatcher matcher=new AntPathRequestMatcher("/oauth/token", Request.HttpMethod.POST.toString());
@@ -44,6 +43,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
 				StringUtils.equalsIgnoreCase(request.getParameter("grant_type"),"password")
 		&&!StringUtils.equalsAnyIgnoreCase(clientId,"swagger")){
 			try{
+				log.info("ValidateCodeFilter start");
 				validateCode(request);
 				filterChain.doFilter(request,response);
 			}catch (ValidateCodeException e){

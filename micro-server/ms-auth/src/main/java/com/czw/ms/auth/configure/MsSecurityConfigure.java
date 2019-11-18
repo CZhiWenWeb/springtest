@@ -11,6 +11,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * @Author: czw
@@ -39,7 +40,7 @@ public class MsSecurityConfigure extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http)throws Exception{
 		http
-				//.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
+				.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
 				.requestMatchers()
 				//只对"/oauth/**"开头的请求有效
 				.antMatchers("/oauth/**")
