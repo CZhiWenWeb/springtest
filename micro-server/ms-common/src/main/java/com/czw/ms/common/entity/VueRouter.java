@@ -23,6 +23,8 @@ public class VueRouter<T> implements Serializable {
 	private String id;
 	@JsonIgnore
 	private String parentId;
+
+	private String path;
 	/**
 	 * 路由名称
 	 */

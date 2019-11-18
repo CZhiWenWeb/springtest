@@ -1,6 +1,7 @@
 package com.czw.ms.common.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -12,6 +13,7 @@ import java.io.Serializable;
  * @Description:
  */
 @Data
+@AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class RouterMeta implements Serializable {
 	private static final long serialVersionUID = -3851410171863413783L;
